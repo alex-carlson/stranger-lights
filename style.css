@@ -1,0 +1,52 @@
+html, body{
+  margin: 0;
+  background-color: black;
+  color: gray;
+  text-align: center;
+  font-family: serif;
+  text-transform: uppercase;
+}
+.container{
+  margin: 20px auto;
+  display: inline-block;
+  position: relative;
+  clear: both;
+  overflow: hidden;
+}
+input[type="text"]{
+  clear: both;
+  display: inline-block;
+  background: black;
+  color: gray;
+  padding: 10px;
+  border: 2px solid gray;
+}
+
+input{
+  outline: 0;
+}
+
+input[type="text"]:focus{
+  border: solid 2px red;
+}
+
+input[type="submit"]{
+  color: black;
+  background-color: #f00;
+  height: 39px;
+  width: 120px;
+  border: solid 2px red;
+  vertical-align: top;
+}
+input[type="submit"]:active{
+  background-color: gray;
+}
+.light{
+  position: absolute;
+  left: 9999px;
+  top: 9999px;
+  //opacity: 0;
+}
+form{
+  padding: 5px;
+}
